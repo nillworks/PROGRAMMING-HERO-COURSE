@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.article {
+  border: 10px solid black;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+
+.headers {
+  /* background-color: indianred; */
+  height: 500px;
+  background-image: url(./img/img1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

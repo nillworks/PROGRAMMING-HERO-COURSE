@@ -1,0 +1,10 @@
+.containers {
+  background-color: aqua;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  /* display: none; */
+  display: block;
+  display: inline;
+  visibility: hidden;
+}
