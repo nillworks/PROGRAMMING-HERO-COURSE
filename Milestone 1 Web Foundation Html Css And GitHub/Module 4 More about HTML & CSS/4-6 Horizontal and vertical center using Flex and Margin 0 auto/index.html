@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CENTER FLEX</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      background-color: aqua;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: auto;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .box {
+      background-color: brown;
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      text-align: center;
+      flex-basis: 33%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: large;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      transition: 0.8s ease-in-out;
+    }
+
+    .box:hover {
+      background: pink;
+      color: black;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">box-1</div>
+    <div class="box">box-2</div>
+    <div class="box">box-3</div>
+    <div class="box">box-4</div>
+    <div class="box">box-5</div>
+    <div class="box">box-5</div>
+  </div>
+</body>
+
+</html>

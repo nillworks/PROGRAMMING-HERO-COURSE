@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+img {
+  max-width: 300px;
+  cursor: pointer;
+}
+.containers {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: aliceblue;
+}
+.containers .inputs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+.inputs button {
+  padding: 5px;
+  margin-top: 10px;
+  background-color: pink;
+  border: 1px solid #dddd;
+}
+.inputs button:hover {
+  background: rgb(175, 132, 139);
+}
+textarea {
+  column-span: 50;
+}
+fieldset {
+  padding: 10px;
+  text-align: left;
+}
+.message {
+  height: 100px;
+}
