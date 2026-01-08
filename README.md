@@ -19,7 +19,7 @@ tick the checkbox when you finish each day's work.
 - [x] Complete Day 4 — 04 Jan 2026
 - [x] Complete Day 5 — 05 Jan 2026
 - [x] Complete Day 6 — 06 Jan 2026
-- [ ] Complete Day 7 — 07 Jan 2026
+- [x] Complete Day 7 — 07 Jan 2026
 - [ ] Complete Day 8 — 08 Jan 2026
 - [ ] Complete Day 9 — 09 Jan 2026
 - [ ] Complete Day 10 — 10 Jan 2026
