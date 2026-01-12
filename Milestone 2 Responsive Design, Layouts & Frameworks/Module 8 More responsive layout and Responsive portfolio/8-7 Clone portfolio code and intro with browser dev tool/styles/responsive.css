@@ -1,1 +1,99 @@
-/* Responsive  */
+/* Web first Design Responsive  */
+
+/* Laptop device */
+@media screen and (max-width: 1200px) {
+}
+/* Tablet Device */
+@media screen and (max-width: 992px) {
+}
+/* Big Mobile Device */
+@media screen and (max-width: 768px) {
+}
+
+/* Normal Mobile Device */
+@media screen and (max-width: 576px) {
+  header {
+    background: url(../images/header_bg.png) #fff8f3;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  nav .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Hero header responsive */
+  #banner {
+    margin: 10px;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  #banner .banner-image img {
+    width: 100%;
+  }
+  #banner .banner-content h1 {
+    font-size: 44px;
+  }
+  .btn_div {
+    justify-content: center;
+  }
+
+  /* About area responsive */
+  #about .about-container {
+    padding: 12px;
+  }
+  #about .about-container .about-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  /* Skills area responsive */
+  .container {
+    width: 95%;
+  }
+  #about,
+  #skills,
+  #resume {
+    padding-top: 60px;
+  }
+  .section-heading h2 {
+    font-size: 30px;
+  }
+  #skills .skills-container .skill-box {
+    flex-direction: column;
+  }
+  .skill-box .skill-card {
+    max-width: 100%;
+  }
+
+  /* Resume area Responsive */
+
+  .section-heading h2 {
+    font-size: 24px;
+  }
+  #resume .resume-container {
+    flex-direction: column;
+  }
+  .resume-card {
+    margin-right: 0;
+  }
+
+  /* Footer area Responsive */
+  footer .footer-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-container form input[type='text'],
+  .footer-container form textarea {
+    width: 100%;
+  }
+}
