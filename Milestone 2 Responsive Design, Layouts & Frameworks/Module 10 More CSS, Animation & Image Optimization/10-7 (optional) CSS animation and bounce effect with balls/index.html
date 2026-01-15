@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>animation</title>
+</head>
+
+<style>
+  @keyframes bounce {
+    0% {
+      top: 0;
+      left: 0;
+    }
+
+    25% {
+      left: 650px;
+      top: 0;
+    }
+
+    50% {
+      right: 0;
+      top: 250px;
+    }
+
+    75% {
+      right: 0;
+      left: -650px;
+    }
+
+    100% {
+      left: 0s;
+      bottom: 250px;
+    }
+  }
+
+  .stage {
+    width: 700px;
+    height: 300px;
+    background-color: aqua;
+    border: 1px solid salmon;
+  }
+
+  .boll {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 100%;
+    position: relative;
+    /* animation: pink-pong 2s ease-in-out 1s 3 alternate; 
+    */
+
+    animation: bounce 3s ease-in-out 1s infinite alternate;
+  }
+</style>
+
+<body>
+
+
+
+
+  <div class="stage">
+    <div class="boll">
+    </div>
+  </div>
+
+</body>
+
+</html>
