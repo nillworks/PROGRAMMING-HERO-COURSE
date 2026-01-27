@@ -52,15 +52,16 @@ console.log(result3);
 const numbers4 = [40, 60, 20, 80, 10, 90];
 
 const num2SumReturn2 = arr => {
-  let index = [];
+  let seen = {};
+  let result = [];
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 0; j < arr.length; j++) {
-      if (arr[i] + arr[j] === 100) {
-        index.push([i, j]);
-      }
+    let need = 100 - arr[i];
+    if (seen[need] !== undefined) {
+      result.push([seen[need], i]);
     }
+    seen[arr[i]] = i;
   }
-  return index;
+  return result;
 };
 
 const result4 = num2SumReturn2(numbers4);
