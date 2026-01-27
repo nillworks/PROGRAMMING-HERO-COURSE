@@ -74,8 +74,26 @@ console.log(result4);
 //   }
 // })
 
-//? Qs: 5 :
+//? Qs: 5 : array এর যেকোনো দুইটা number equal হলে তাদের index বের করো
 // Ans:
+let numbers5 = [5, 10, 15, 10, 20, 5];
+
+const numberEq = arr => {
+  let obj = {};
+  let result = [];
+  for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[i] === arr[j]) {
+        result.push([i, j]);
+      }
+    }
+  }
+  return result;
+};
+
+const result5 = numberEq(numbers5);
+console.log(result5);
+
 //? Qs: 6 :
 // Ans:
 //? Qs: 7 :
