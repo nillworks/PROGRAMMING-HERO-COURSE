@@ -47,8 +47,32 @@ const numberDifference = arrD => {
 const result3 = numberDifference(numbers3);
 console.log(result3);
 
-//? Qs: 4 :
+//? Qs: 4 : 👉 array এর যেকোনো দুইটা number যোগ করলে 100 হলে তাদের index বের করো
 // Ans:
+const numbers4 = [40, 60, 20, 80, 10, 90];
+
+const num2SumReturn2 = arr => {
+  let index = [];
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[i] + arr[j] === 100) {
+        index.push([i, j]);
+      }
+    }
+  }
+  return index;
+};
+
+const result4 = num2SumReturn2(numbers4);
+console.log(result4);
+
+// const num2SumReturn = numbers4.map(e => {
+//   let arr = [];
+//   if (arr+arr) {
+
+//   }
+// })
+
 //? Qs: 5 :
 // Ans:
 //? Qs: 6 :
