@@ -22,8 +22,20 @@ const car = {
 car['passenger capacity'] = 25;
 console.log(car);
 
-//? Qs: 3 :
+//? Qs: 3 : Display the physics marks as output.
 // Ans:
+const student = {
+  name: 'Hamim Sakep',
+  id: 5421,
+  physics: {
+    subject: 'HSC Physics',
+    author: 'Shahjahan Tapan',
+    marks: 30,
+  },
+};
+
+console.log(student.physics.marks);
+
 //? Qs: 4 :
 // Ans:
 //? Qs: 5 :
