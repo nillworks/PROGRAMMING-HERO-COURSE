@@ -57,20 +57,6 @@ const obj = {
   city: 'Example City',
   isStudent: true,
 };
-
 for (const i in obj) {
   console.log(`key: ${i} | Type: ${typeof obj[i]}`);
 }
-
-//? Qs: 6 :
-// Ans:
-//? Qs: 7 :
-// Ans:
-//? Qs: 8 :
-// Ans:
-//? Qs: 9 :
-// Ans:
-//? Qs: 10 :
-// Ans:
-//? Qs: 11:
-// Ans:
