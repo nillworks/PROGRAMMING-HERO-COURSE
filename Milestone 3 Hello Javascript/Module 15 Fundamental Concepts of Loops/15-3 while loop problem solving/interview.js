@@ -79,10 +79,9 @@ console.log(result4);
 let numbers5 = [5, 10, 15, 10, 20, 5];
 
 const numberEq = arr => {
-  let obj = {};
   let result = [];
   for (let i = 0; i < arr.length - 1; i++) {
-    for (let j = 0; j < arr.length; j++) {
+    for (let j = i + 1; j < arr.length; j++) {
       if (arr[i] === arr[j]) {
         result.push([i, j]);
       }
@@ -93,6 +92,20 @@ const numberEq = arr => {
 
 const result5 = numberEq(numbers5);
 console.log(result5);
+
+// let str = 'Mississippi';
+console.log(str.indexOf('i', 3));
+
+const x = '';
+if (!x.length) {
+  console.log('Hey');
+} else {
+  console.log('Hi');
+}
+
+const str = 'Hello';
+str[0] = 'h';
+console.log(str);
 
 //? Qs: 6 :
 // Ans:
