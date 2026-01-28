@@ -36,8 +36,17 @@ const student = {
 
 console.log(student.physics.marks);
 
-//? Qs: 4 :
+//? Qs: 4 : Count the number of properties.
 // Ans:
+let students = {
+  name: 'Ariana Grande',
+  age: 21,
+  city: 'Gaibandha',
+  isStudent: true,
+};
+
+const numberOfProperties = Object.keys(students).length;
+console.log(numberOfProperties);
 //? Qs: 5 :
 // Ans:
 //? Qs: 6 :
