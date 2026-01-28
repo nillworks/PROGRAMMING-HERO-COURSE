@@ -47,8 +47,21 @@ let students = {
 
 const numberOfProperties = Object.keys(students).length;
 console.log(numberOfProperties);
-//? Qs: 5 :
+
+//? Qs: 5 : Loop through an object and print the key-value pairs with their types
 // Ans:
+
+const obj = {
+  name: 'John Doe',
+  age: 25,
+  city: 'Example City',
+  isStudent: true,
+};
+
+for (const i in obj) {
+  console.log(`key: ${i} | Type: ${typeof obj[i]}`);
+}
+
 //? Qs: 6 :
 // Ans:
 //? Qs: 7 :
