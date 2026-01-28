@@ -12,8 +12,16 @@ const colors = {
 const goldenRodColor = colors['golden rod'];
 console.log(goldenRodColor);
 
-//? Qs: 2 :
+//? Qs: 2 : For this object below add a property named passenger capacity with value 5
 // Ans:
+const car = {
+  make: 'Toyota',
+  model: 'Corolla',
+  year: 2020,
+};
+car['passenger capacity'] = 25;
+console.log(car);
+
 //? Qs: 3 :
 // Ans:
 //? Qs: 4 :
