@@ -36,13 +36,13 @@ tick the checkbox when you finish each day's work.
 - [x] Complete Day 21 — 21 Jan 2026
 - [x] Complete Day 22 — 22 Jan 2026
 - [x] Complete Day 23 — 23 Jan 2026
-- [ ] Complete Day 24 — 24 Jan 2026
-- [ ] Complete Day 25 — 25 Jan 2026
-- [ ] Complete Day 26 — 26 Jan 2026
-- [ ] Complete Day 27 — 27 Jan 2026
-- [ ] Complete Day 28 — 28 Jan 2026
-- [ ] Complete Day 29 — 29 Jan 2026
-- [ ] Complete Day 30 — 30 Jan 2026
+- [x] Complete Day 24 — 24 Jan 2026
+- [x] Complete Day 25 — 25 Jan 2026
+- [x] Complete Day 26 — 26 Jan 2026
+- [x] Complete Day 27 — 27 Jan 2026
+- [x] Complete Day 28 — 28 Jan 2026
+- [x] Complete Day 29 — 29 Jan 2026
+- [x] Complete Day 30 — 30 Jan 2026
 
 ---
 
