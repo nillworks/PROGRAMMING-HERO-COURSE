@@ -12,9 +12,9 @@ This README file is designed to **track daily learning progress for 6 months**. 
 
 ## ✅ Daily Progress Checklist (February Example)
 
-- [ ] Complete Day 1 — 01 Feb 2026
-- [ ] Complete Day 2 — 02 Feb 2026
-- [ ] Complete Day 3 — 03 Feb 2026
+- [x] Complete Day 1 — 01 Feb 2026
+- [x] Complete Day 2 — 02 Feb 2026
+- [x] Complete Day 3 — 03 Feb 2026
 - [ ] Complete Day 4 — 04 Feb 2026
 - [ ] Complete Day 5 — 05 Feb 2026
 - [ ] Complete Day 6 — 06 Feb 2026
@@ -44,7 +44,7 @@ This README file is designed to **track daily learning progress for 6 months**. 
 ---
 
 ## 🗓️ Month-wise Completion
-- [ ] Month 1 - Journey
+- [x] Month 1 - Journey
 - [ ] Month 2 — February 2026
 - [ ] Month 3 — March 2026
 - [ ] Month 4 — April 2026
