@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tour of dom</title>
+  <!-- <link rel="stylesheet" href="/CSS/style.css"> -->
+  <style>
+    li {
+      color: tomato;
+      font-size: 2rem;
+    }
+
+    #country {
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h2>I am learning DOM</h2>
+    <h2>DOM is fantastic</h2>
+  </header>
+
+  <main>
+    <section>
+      <h2 id="country">Country Name</h2>
+      <ul>
+        <li>Bangladesh</li>
+        <li class="country-name">Pakistan</li>
+        <li class="country-name">Turkey</li>
+        <li class="country-name">Malaysia</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="place">Places where i want to visit</h2>
+      <ul>
+        <li class="places">Sundarban</li>
+        <li class="places">Bandorban</li>
+        <li>Khagrachori</li>
+        <li>Rangamati</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>My favorite food</h2>
+      <ul>
+        <li>Biriyani</li>
+        <li>Beef Teheri</li>
+        <li>Kacchi</li>
+        <li>Doi</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="./JS/dom.js"></script>
+  <script>
+    const listCollection = document.getElementsByTagName('li'); // স্পেসিফিক ট্যাগকে ধরার জন্য।
+    // console.log(listCollection);
+    for (const list of listCollection) {
+      // console.log(list.innerText); // ট্যাগের ভিতরের লেখা দেখার জন্য 
+    }
+
+    const allHeadings = document.getElementsByTagName('h2') // স্পেসিফিক ট্যাগকে ধরার জন্য।
+    for (const heading of allHeadings) {
+      // console.log(heading);
+      // console.log(heading.innerText) // ট্যাগের ভিতরের লেখা দেখার জন্য 
+    }
+
+
+    // getElementByID 
+    document.getElementById('country') // স্পেসিফিক আইডিকে ধরার জন্য।
+    // console.log(country)
+
+    const placesTitle = document.getElementById('place') // স্পেসিফিক আইডিকে ধরার জন্য।
+    // console.log(placesTitle)
+
+    document.getElementById('place').innerText = 'Places i love to go' // ভিতরের টেক্সটকে পরিবর্তন করেছে।
+    // console.log(placesTitle)
+
+
+
+    // getElementsByClass
+    const getClass = document.getElementsByClassName('country-name'); // স্পেসিফিক ক্লাস ধরার জন্য
+    // console.log(getClass);
+    for (const element of getClass) {
+      console.log(element.innerText);
+    }
+
+    const getClass2 = document.getElementsByClassName('.places')
+    console.log(getClass2.innerText);
+
+  </script>
+</body>
+
+</html>
