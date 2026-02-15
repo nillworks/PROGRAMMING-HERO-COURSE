@@ -1,29 +1,30 @@
 const textArea = document.getElementById('textarea');
 const submitButton = document.getElementById('submitButton');
 const commentBox = document.getElementById('commentBoxParent');
-const commentRow = document.querySelector('section div');
+
+let getTextAreaValue = JSON.parse(localStorage.getItem('comments')) || [];
+
+// load previous comments
+getTextAreaValue.forEach(c => {
+  const p = document.createElement('p');
+  p.innerText = c.message;
+  commentBox.appendChild(p);
+});
 
 submitButton.addEventListener('click', event => {
   event.preventDefault();
+  const textAreaValue = textArea.value.trim();
+  if (!textAreaValue) return;
 
-  const allInfoArr = [];
+  const newComment = { message: textAreaValue, time: new Date() };
+  getTextAreaValue.push(newComment);
 
-  const textAreaValue = textArea.value;
-  console.log(textAreaValue);
-  if (textAreaValue.trim() === '') return;
+  localStorage.setItem('comments', JSON.stringify(getTextAreaValue));
 
-  // value update
-  const crateElement = document.createElement('p');
-  crateElement.classList.add('commentBox', 'active');
-  crateElement.innerText = textAreaValue;
-
-  // push
-  commentBox.appendChild(crateElement);
-  allInfoArr.push(textAreaValue);
+  const createElement = document.createElement('p');
+  createElement.classList.add('commentBox', 'active');
+  createElement.innerText = textAreaValue;
+  commentBox.appendChild(createElement);
 
   textArea.value = '';
-
-  console.log(allInfoArr);
 });
-
-console.log(submitButton);
