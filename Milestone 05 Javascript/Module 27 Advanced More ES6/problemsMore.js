@@ -10,11 +10,12 @@ const e = undefined;
 const f = [1, 2, 3];
 const g = { name: "Karim" };
 
-👉 কোনগুলো primitive?
-👉 কোনগুলো non-primitive?
+ কোনগুলো primitive?
+ কোনগুলো non-primitive?
 */
-
 // Ans:
+
+//*   1,2,3,4,5, agolo Primitive Data && 6,7 Non-Primitive Data
 
 /*
 ? Qs: 2
@@ -23,10 +24,12 @@ const g = { name: "Karim" };
 let x;
 console.log(x);
 
-👉 undefined কেন আসে explain করো।
+ undefined কেন আসে explain করো।
 */
 
 // Ans:
+
+//* akane value assign hoy nai aijono undefined asbe.
 
 /*
 ? Qs: 3
@@ -42,10 +45,12 @@ undefined
 {}
 false
 
-👉 আলাদা করে লিখো।
+ আলাদা করে লিখো।
 */
 
 // Ans:
+
+// * 1,3,9 => false and baki sobgola true
 
 /*
 ? Qs: 4
@@ -56,7 +61,7 @@ console.log(5 === "5");
 console.log(false == 0);
 console.log(false === 0);
 
-👉 implicit conversion explain করো।
+ implicit conversion explain করো।
 */
 
 // Ans:
@@ -70,7 +75,7 @@ console.log(false === 0);
 }
 console.log(a);
 
-👉 block scope explain করো।
+ block scope explain করো।
 */
 
 // Ans:
@@ -91,7 +96,7 @@ const result = counter();
 result();
 result();
 
-👉 Output কী হবে? কেন?
+ Output কী হবে? কেন?
 */
 
 // Ans:
@@ -100,7 +105,7 @@ result();
 ? Qs: 7
 Callback function ব্যবহার করে এমন একটি function বানাও যেখানে একটি function আরেকটি function কে parameter হিসেবে নেয়।
 
-👉 Example: greet("Rahim", callbackFunction)
+ Example: greet("Rahim", callbackFunction)
 */
 
 // Ans:
@@ -125,7 +130,7 @@ function changeName(o) {
 changeName(obj);
 console.log(obj.name);
 
-👉 দুইটার output explain করো।
+ দুইটার output explain করো।
 */
 
 // Ans:
@@ -136,7 +141,7 @@ map ব্যবহার করে নিচের array থেকে সব �
 
 const numbers = [2, 4, 6, 8];
 
-👉 Output হবে: [4, 8, 12, 16]
+ Output হবে: [4, 8, 12, 16]
 */
 
 // Ans:
@@ -151,9 +156,9 @@ const products = [
   { name: "Watch", price: 3000 }
 ];
 
-👉 ১. ১০,০০০ টাকার বেশি product filter করো
-👉 ২. price 3000 এমন product খুঁজে বের করো
-👉 ৩. সব product এর total price বের করো
+ ১. ১০,০০০ টাকার বেশি product filter করো
+ ২. price 3000 এমন product খুঁজে বের করো
+ ৩. সব product এর total price বের করো
 */
 
 // Ans:
