@@ -1,6 +1,6 @@
 /* =========================================
-        🚀 DAY 3 – Team Discussion Set
-        (Advanced Logic Practice)
+        🚀 DAY 3 – Team Discussion Problems
+        Advanced Logic Practice.
 ========================================= */
 
 /*
@@ -17,6 +17,13 @@ Hint: filter / Set / reduce যেকোনো একটা ব্যবহা�
 
 // Ans:
 
+const numbers = [1, 2, 2, 3, 4, 4, 5];
+const duplicateValueRemove = numbers.filter((item, index, arr) => {
+  return arr.indexOf(item) === index;
+});
+
+console.log(duplicateValueRemove);
+
 /*
 ? Qs: 2
 একটা array থেকে সব string এর length বের করো map ব্যবহার করে।
@@ -28,6 +35,10 @@ Expected Output:
 */
 
 // Ans:
+
+const words = ['apple', 'banana', 'mango'];
+const lengthCounts = words.map(item => item.length);
+console.log(lengthCounts);
 
 /*
 ? Qs: 3
