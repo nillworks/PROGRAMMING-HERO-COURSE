@@ -58,6 +58,16 @@ Expected Output:
 Hint: filter + map chain করো
 */
 
+const people = [
+  { name: 'Rahim', age: 17 },
+  { name: 'Karim', age: 22 },
+  { name: 'Jamal', age: 30 },
+  { name: 'Rafiq', age: 15 },
+];
+
+const peopleAge18 = people.filter(item => item.age > 18).map(item => item.name);
+console.log(peopleAge18);
+
 // Ans:
 
 /*
@@ -70,8 +80,10 @@ const numbers = [10, 25, 5, 40, 15];
 Expected Output:
 40
 */
-
 // Ans:
+const numbers4 = [10, 25, 5, 40, 15];
+const bigNumber = numbers4.reduce((acc, num) => (num > acc ? num : acc));
+console.log(bigNumber);
 
 /*
 ? Qs: 5
@@ -90,3 +102,14 @@ Hint: reduce ব্যবহার করো।
 */
 
 // Ans:
+
+const words5 = ['apple', 'banana', 'apple', 'mango', 'banana', 'apple'];
+const wordsCounts = words5.reduce((acc, item) => {
+  if (acc[item]) {
+    acc[item]++;
+  } else {
+    acc[item] = 1;
+  }
+  return acc;
+}, {});
+console.log(wordsCounts);
