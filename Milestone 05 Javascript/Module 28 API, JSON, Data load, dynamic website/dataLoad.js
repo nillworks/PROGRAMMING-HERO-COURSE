@@ -12,12 +12,19 @@ const loadPostData = () => {
 const dataUse = data => {
   // Get element
   const container = document.getElementById('containers');
+  container.innerHTML = '';
+
   data.forEach(item => {
-    const h2 = document.createElement('h2');
-    const body = document.createElement('p');
-    h2.innerText = item.title;
-    body.innerText = item.body;
-    container.appendChild(h2);
-    container.appendChild(body);
+    const cardCrete = document.createElement('div');
+    cardCrete.classList.add('post-card');
+    cardCrete.innerHTML = `
+    
+      <span class="user-id">User: ${item.userId}</span>
+      <h2 class="title">${item.title}</h2>
+      <p class="body">${item.body}</p>
+    
+    `;
+
+    container.appendChild(cardCrete);
   });
 };
