@@ -1,6 +1,7 @@
 # 📅 6 Months Learning Progress Tracker (README)
 
-This README file is designed to **track daily learning progress for 6 months**. Tick the checkbox when you finish each day's work.
+This README file is designed to **track daily learning progress for 6 months**.
+Tick the checkbox when you finish each day's work.
 
 ---
 
@@ -32,9 +33,9 @@ This README file is designed to **track daily learning progress for 6 months**. 
 - [x] Complete Day 18 — 18 Feb 2026
 - [x] Complete Day 19 — 19 Feb 2026
 - [x] Complete Day 20 — 20 Feb 2026
-- [x] Complete Day 21 — 21 Feb 2026
-- [x] Complete Day 22 — 22 Feb 2026
-- [x] Complete Day 23 — 23 Feb 2026
+- [ ] Complete Day 21 — 21 Feb 2026
+- [ ] Complete Day 22 — 22 Feb 2026
+- [ ] Complete Day 23 — 23 Feb 2026
 - [ ] Complete Day 24 — 24 Feb 2026
 - [ ] Complete Day 25 — 25 Feb 2026
 - [ ] Complete Day 26 — 26 Feb 2026
@@ -44,8 +45,9 @@ This README file is designed to **track daily learning progress for 6 months**. 
 ---
 
 ## 🗓️ Month-wise Completion
+
 - [x] Month 1 - Journey
-- [ ] Month 2 — February 2026
+- [x] Month 2 — February 2026
 - [ ] Month 3 — March 2026
 - [ ] Month 4 — April 2026
 - [ ] Month 5 — May 2026
@@ -56,7 +58,8 @@ This README file is designed to **track daily learning progress for 6 months**. 
 ## 📝 Notes
 
 - Turn `[ ]` into `[x]` every day when work is done.
-- Continue the same pattern for daily checklists in March, April, May, June, and July.
+- Continue the same pattern for daily checklists in March, April, May, June, and
+  July.
 
 ---
 
