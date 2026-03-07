@@ -28,10 +28,10 @@ Tick the checkbox when you finish each day's work.
 - [x] Complete Day 13 — 13 Feb 2026
 - [x] Complete Day 14 — 14 Feb 2026
 - [x] Complete Day 15 — 15 Feb 2026
-- [x] Complete Day 16 — 16 Feb 2026
-- [x] Complete Day 17 — 17 Feb 2026
-- [x] Complete Day 18 — 18 Feb 2026
-- [x] Complete Day 19 — 19 Feb 2026
+- [ ] Complete Day 16 — 16 Feb 2026
+- [ ] Complete Day 17 — 17 Feb 2026
+- [ ] Complete Day 18 — 18 Feb 2026
+- [ ] Complete Day 19 — 19 Feb 2026
 - [ ] Complete Day 20 — 20 Feb 2026
 - [ ] Complete Day 21 — 21 Feb 2026
 - [ ] Complete Day 22 — 22 Feb 2026
