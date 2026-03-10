@@ -33,3 +33,19 @@ const displayPosts = posts => {
 };
 
 loadPost();
+
+const user = {
+  name: 'Rahim',
+  age: 25,
+  city: 'Dhaka',
+};
+
+// Save object
+localStorage.setItem('userInfo', JSON.stringify(user));
+
+// Get object
+const data = localStorage.getItem('userInfo');
+const userObj = JSON.parse(data);
+
+console.log(userObj.name);
+console.log(userObj.city);
