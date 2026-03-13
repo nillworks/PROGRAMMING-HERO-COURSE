@@ -1,6 +1,7 @@
 import Batsman from './Components/Batsman';
 import Bowler from './Components/Bowler';
 import Counter from './Components/Counter';
+import User from './Components/User';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Counter />
       <Batsman />
       <Bowler />
+      <User />
     </div>
   );
 };
