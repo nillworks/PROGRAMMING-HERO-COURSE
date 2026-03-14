@@ -3,7 +3,7 @@ import AlbumsDetails from './AlbumsDetails';
 
 const Albums = ({ data }) => {
   const useDataAlbums = use(data);
-  console.log(useDataAlbums);
+  // console.log(useDataAlbums);
   return (
     <div className="shadow">
       {useDataAlbums.map(item => (
