@@ -9,13 +9,14 @@ const Countries = ({ allData }) => {
   const [visitedCountries, setVisitedCountries] = useState([]);
   const handleVisitedCountries = status => {
     console.log('handle visited Countray', status);
+    setVisitedCountries([...visitedCountries, status]);
   };
 
   return (
     <div>
       <div className="text-center">
         <h2 className="text-2xl">total Country : {countries.length}</h2>
-        <p>Visited Countries: </p>
+        <p>Visited Countries: {visitedCountries.length}</p>
       </div>
 
       <div className="gap-3 grid justify-center grid-cols-1 align-middle sm:grid-cols-3 lg:grid-cols-3 items-stretch">
