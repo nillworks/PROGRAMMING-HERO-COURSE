@@ -1,10 +1,11 @@
 import { useState } from 'react';
 
-const CountriesDetails = ({ countriesData }) => {
-  const [visited, setVisited] = useState(true);
+const CountriesDetails = ({ countriesData, onVisitedCountries }) => {
+  const [visited, setVisited] = useState(false);
 
   const handleVisited = () => {
     setVisited(!visited);
+    onVisitedCountries(countriesData);
   };
 
   return (
@@ -31,9 +32,9 @@ const CountriesDetails = ({ countriesData }) => {
         <div>
           <button
             onClick={handleVisited}
-            className={`btn ${!visited ? 'btn-success' : 'btn-primary'} mx-auto`}
+            className={`btn ${visited ? 'btn-success' : 'btn-primary'} mx-auto`}
           >
-            {visited ? 'Not Visited' : 'Visited'}
+            {!visited ? 'Not Visited' : 'Visited'}
           </button>
         </div>
       </div>
