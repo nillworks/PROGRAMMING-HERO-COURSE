@@ -4,7 +4,7 @@ const CountriesDetails = ({ countriesData }) => {
   const [visited, setVisited] = useState(true);
 
   const handleVisited = () => {
-    setVisited(prev => !prev);
+    setVisited(!visited);
   };
 
   return (
@@ -29,7 +29,10 @@ const CountriesDetails = ({ countriesData }) => {
             : countriesData.area.area}
         </p>
         <div>
-          <button onClick={handleVisited} className="btn btn-primary mx-auto">
+          <button
+            onClick={handleVisited}
+            className={`btn ${!visited ? 'btn-success' : 'btn-primary'} mx-auto`}
+          >
             {visited ? 'Not Visited' : 'Visited'}
           </button>
         </div>
