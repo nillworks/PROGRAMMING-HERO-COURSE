@@ -1,6 +1,10 @@
 import { useState } from 'react';
 
-const CountriesDetails = ({ countriesData, onVisitedCountries }) => {
+const CountriesDetails = ({
+  countriesData,
+  onVisitedCountries,
+  onCountryFlag,
+}) => {
   const [visited, setVisited] = useState(false);
 
   const handleVisited = () => {
@@ -29,12 +33,19 @@ const CountriesDetails = ({ countriesData, onVisitedCountries }) => {
             ? `Beg Countries ${countriesData.area.area}`
             : countriesData.area.area}
         </p>
-        <div>
+        <div className="flex gap-4 items-center">
           <button
             onClick={handleVisited}
             className={`btn ${visited ? 'btn-success' : 'btn-primary'} mx-auto`}
           >
             {!visited ? 'Not Visited' : 'Visited'}
+          </button>
+
+          <button
+            onClick={() => onCountryFlag(countriesData?.flags?.flags?.png)}
+            className="btn btn-primary"
+          >
+            Countries Flag
           </button>
         </div>
       </div>
