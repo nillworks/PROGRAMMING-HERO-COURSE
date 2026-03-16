@@ -1,6 +1,8 @@
+import { Fragment } from 'react';
+
 const Nav = () => {
   return (
-    <frames>
+    <Fragment>
       <div className="containers flex items-center justify-between">
         {/* logo  */}
         <div>
@@ -8,7 +10,7 @@ const Nav = () => {
         </div>
 
         {/* Navigation Menu */}
-        <div>
+        <div className="hidden sm:block">
           <ul className="flex items-center gap-4">
             <li>
               <a href="#">Home</a>
@@ -30,7 +32,7 @@ const Nav = () => {
           <button className="btn btn-soft btn-primary">Login</button>
         </div>
       </div>
-    </frames>
+    </Fragment>
   );
 };
 
