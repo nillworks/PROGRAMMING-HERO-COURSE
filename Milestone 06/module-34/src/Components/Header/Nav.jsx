@@ -1,4 +1,6 @@
-import logo from '../assets/images/logo.png';
+import { Menu, X } from 'lucide-react';
+import logo from '../../assets/images/logo.png';
+import { useState } from 'react';
 
 const navItems = [
   {
@@ -43,18 +45,35 @@ const navItems = [
 ];
 
 const Nav = () => {
-  const linkItem = navItems.map(item => <li key={item.id}>{item.name}</li>);
+  // Mobile Menu
+  const [open, setOpen] = useState(false);
+
+  // Nav Menu
+  const linkItem = navItems.map(item => (
+    <li key={item.id}>
+      <a href={item.path}>{item.name}</a>
+    </li>
+  ));
+
   return (
-    <nav>
+    <nav className="flex items-center justify-between">
       {/* Logo */}
       <div>
-        <img src={logo} alt="" />
+        <img src={logo} alt="logo" className="w-20" />
       </div>
 
-      <ul className="flex items-center gap-5">{linkItem}</ul>
+      <ul className="hidden items-center gap-5 md:flex">{linkItem}</ul>
 
       {/* Mobile Menu  */}
-      <div></div>
+      <div>
+        <span onClick={() => setOpen(!open)}>
+          {!open ? (
+            <Menu className="cursor-pointer" />
+          ) : (
+            <X className="cursor-pointer" />
+          )}
+        </span>
+      </div>
     </nav>
   );
 };
