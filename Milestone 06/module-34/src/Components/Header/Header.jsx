@@ -3,7 +3,7 @@ import Nav from './Nav';
 
 const Header = () => {
   return (
-    <header className="containers">
+    <header className="containers paddingXCustom">
       <Nav />
       <HeroHeader />
     </header>

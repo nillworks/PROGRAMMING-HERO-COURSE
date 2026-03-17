@@ -6,9 +6,24 @@
     cupcake;
 }
 
+@theme {
+  --color-PrimaryColor: #f84d04;
+  --color-srcColor: #df6c3b;
+}
+
 @layer utilities {
   .containers {
     max-width: 1440px;
     margin: 0 auto;
+  }
+  .leftPadding {
+    right: 8px;
+  }
+  .backgroundRounded {
+    padding: 10px;
+    border-radius: 999999px;
+  }
+  .paddingXCustom {
+    padding: 4px 14px;
   }
 }
