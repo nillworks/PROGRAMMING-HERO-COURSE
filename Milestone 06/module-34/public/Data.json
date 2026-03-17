@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Savor the Taste of Exquisite Dishes",
+    "subtitle": "Where Culinary Expertise and Heartfelt Craftsmanship Come Together",
+    "buttonText": "Order Now",
+    "watchVideoText": "Watch Video",
+    "highlightText": "Exquisite Dishes",
+    "chef": {
+      "name": "Chef Image",
+      "image": "/images/hero-chef.png",
+      "tag": "Fiery Cuisine"
+    },
+    "featuredDishes": [
+      {
+        "name": "Fiery Noodles",
+        "price": "$20.00",
+        "rating": 4.8
+      },
+      {
+        "name": "Vegetarian salad",
+        "price": "$28.00",
+        "rating": 4.7
+      }
+    ]
+  },
+  "trendingCategories": [
+    { "name": "Main Dish", "items": 186 },
+    { "name": "Break Fast", "items": 112 },
+    { "name": "Dessert", "items": 48 },
+    { "name": "Browse All", "items": 255 }
+  ],
+  "topPicks": [
+    {
+      "name": "Fattoush salad",
+      "description": "Description of the item",
+      "price": "$24.00",
+      "rating": 4.9
+    },
+    {
+      "name": "Vegetable salad",
+      "description": "Description of the item",
+      "price": "$26.00",
+      "rating": 4.6
+    },
+    {
+      "name": "Egg vegi salad",
+      "description": "Description of the item",
+      "price": "$23.00",
+      "rating": 4.5
+    }
+  ],
+  "customerReviews": {
+    "title": "Customer Reviews",
+    "description": "Still thinking about my Foodi dinner last night—everything was beautifully presented and perfectly served.",
+    "reviewers": [
+      { "name": "Customer 1", "avatar": "/images/user1.png" },
+      { "name": "Customer 2", "avatar": "/images/user2.png" },
+      { "name": "Customer 3", "avatar": "/images/user3.png" }
+    ],
+    "rating": 4.9,
+    "reviewsCount": "18.6k"
+  },
+  "services": [
+    {
+      "title": "Catering",
+      "description": "Delight your guests with our flavors and presentation"
+    },
+    {
+      "title": "Fast Delivery",
+      "description": "We deliver your order promptly to your door"
+    },
+    {
+      "title": "Online Ordering",
+      "description": "Explore menu & order with ease using our Online Ordering"
+    },
+    {
+      "title": "Gift Cards",
+      "description": "Give the gift of exceptional dining with Foodi Gift Cards"
+    }
+  ],
+  "footer": {
+    "about": "Taste the Craftsmanship Behind Every Culinary Creation",
+    "links": {
+      "youNeed": ["About us", "Events", "Blogs", "FAQ"],
+      "mainMenu": ["Home", "Offers", "Menus", "Reservation"],
+      "contact": {
+        "email": "example@email.com",
+        "phone": "+64 958 248 966",
+        "social": ["Facebook", "Instagram", "Twitter", "YouTube"]
+      }
+    },
+    "copyright": "© 2026 Rohit Rafi | All rights reserved"
+  }
+}
