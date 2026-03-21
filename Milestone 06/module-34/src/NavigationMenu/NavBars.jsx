@@ -1,23 +1,25 @@
-import { Link } from 'react-router';
+import { Link, Outlet } from 'react-router';
 
 const NavBars = () => {
   return (
-    <div>
+    <nav className="flex items-center justify-between px-4 py-4">
+      <div>
+        <h2>logo</h2>
+      </div>
+
       <ul className="flex items-center gap-4">
         <li>
-          <Link to="#">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="#">About</Link>
-        </li>
-        <li>
-          <Link to="#">Contact</Link>
-        </li>
-        <li>
-          <Link to="#">Footer</Link>
+          <Link to="/about">About</Link>
         </li>
       </ul>
-    </div>
+
+      <div>
+        <button>Login</button>
+      </div>
+    </nav>
   );
 };
 
