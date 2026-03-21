@@ -1,9 +1,8 @@
-import Header from './Components/Header/Header';
-
+import NavBars from './NavigationMenu/NavBars';
 const App = () => {
   return (
     <div>
-      <Header />
+      <NavBars />
     </div>
   );
 };
