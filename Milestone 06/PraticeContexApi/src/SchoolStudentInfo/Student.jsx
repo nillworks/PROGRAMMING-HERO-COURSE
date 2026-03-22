@@ -7,7 +7,7 @@ const students = [
     id: 1,
     roll: 1,
     name: 'Shipon Roy',
-    class: '10th',
+    class: '12th',
     gender: 'male',
   },
   {

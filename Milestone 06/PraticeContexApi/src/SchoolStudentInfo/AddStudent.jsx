@@ -32,9 +32,7 @@ const AddStudent = ({ addedNewStudent }) => {
       className="flex items-center justify-center px-2 py-10 bg-gray-100"
     >
       <div className="bg-white shadow-lg rounded-2xl p-8 w-96">
-        <h2 className="text-2xl font-bold mb-6 text-center text-gray-700">
-          Add User
-        </h2>
+        <h2 className="text-2xl font-bold mb-6 text-center ">Add User</h2>
 
         {/* Flex column for inputs */}
         <div className="flex flex-col gap-4">

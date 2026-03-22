@@ -1,4 +1,3 @@
-import Users from './Users';
 import Student from './SchoolStudentInfo/Student';
 
 const App = () => {

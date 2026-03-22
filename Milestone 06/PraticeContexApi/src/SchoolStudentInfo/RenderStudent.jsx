@@ -1,11 +1,11 @@
 const RenderStudent = ({ student, onHandleUserDeletes }) => {
   return (
-    <div className="p-6 bg-gray-100 min-h-screen">
+    <div className="p-6 bg-gray-100 min-h-screen containers">
       <h2 className="text-2xl font-bold mb-6 text-center text-black">
         Student List
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {student.map(student => (
           <div
             key={student.id}
