@@ -1,16 +1,1 @@
 @import 'tailwindcss';
-@plugin "daisyui";
-
-@layer utilities {
-  body {
-    font-family: 'Geist', sans-serif;
-  }
-  .containers {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 5px 10px;
-  }
-  .paddingXl {
-    padding: 40px;
-  }
-}
