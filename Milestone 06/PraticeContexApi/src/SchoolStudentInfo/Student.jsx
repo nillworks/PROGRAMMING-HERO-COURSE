@@ -4,35 +4,35 @@ import AddStudent from './AddStudent';
 
 const students = [
   {
-    id: crypto.randomUUID(),
+    id: 1,
     roll: 1,
     name: 'Shipon Roy',
     class: '10th',
     gender: 'male',
   },
   {
-    id: crypto.randomUUID(),
+    id: 2,
     roll: 2,
     name: 'Nabila Akter',
     class: '9th',
     gender: 'female',
   },
   {
-    id: crypto.randomUUID(),
+    id: 3,
     roll: 3,
     name: 'Rahim Uddin',
     class: '10th',
     gender: 'male',
   },
   {
-    id: crypto.randomUUID(),
+    id: 4,
     roll: 4,
     name: 'Sadia Islam',
     class: '8th',
     gender: 'female',
   },
   {
-    id: crypto.randomUUID(),
+    id: 5,
     roll: 5,
     name: 'Karim Hossain',
     class: '9th',
@@ -44,7 +44,7 @@ const Student = () => {
   const [student, setStudent] = useState(students);
 
   const handleUserDeletes = id => {
-    const filterUser = student.filter(stu => stu.roll !== id);
+    const filterUser = student.filter(stu => stu.id !== id);
     setStudent(filterUser);
   };
 

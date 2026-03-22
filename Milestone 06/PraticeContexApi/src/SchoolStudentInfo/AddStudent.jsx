@@ -19,8 +19,7 @@ const AddStudent = ({ addedNewStudent }) => {
 
     const newStudent = {
       ...UserLint,
-      id: crypto.randomUUID(),
-      roll: UserLint.length + 1,
+      id: Date.now(),
     };
 
     addedNewStudent(newStudent);
@@ -70,7 +69,7 @@ const AddStudent = ({ addedNewStudent }) => {
 
           <button
             type="submit"
-            className="w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition duration-300"
+            className="w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition duration-300 cursor-pointer"
           >
             Add User
           </button>
