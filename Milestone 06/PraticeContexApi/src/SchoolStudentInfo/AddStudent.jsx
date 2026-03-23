@@ -1,6 +1,12 @@
 import { useState } from 'react';
+import StudentContext from '../Context/StudentContext';
+import UseStudentsContext from './../Hooks/UseStudentsContext';
 
-const AddStudent = ({ addedNewStudent }) => {
+const AddStudent = () => {
+  // Use Context Data
+  const { setStudent } = UseStudentsContext();
+
+  // Crate Student Data
   const [UserLint, setUserList] = useState({
     name: '',
     class: '',
@@ -22,7 +28,7 @@ const AddStudent = ({ addedNewStudent }) => {
       id: Date.now(),
     };
 
-    addedNewStudent(newStudent);
+    setStudent(prev => [...prev, newStudent]);
     setUserList({ name: '', class: '', gender: '' });
   };
 

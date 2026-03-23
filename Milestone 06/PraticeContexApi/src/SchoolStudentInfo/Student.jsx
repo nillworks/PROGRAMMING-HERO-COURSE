@@ -1,64 +1,15 @@
-import { useState } from 'react';
 import RenderStudent from './RenderStudent';
 import AddStudent from './AddStudent';
-
-const students = [
-  {
-    id: 1,
-    roll: 1,
-    name: 'Shipon Roy',
-    class: '12th',
-    gender: 'male',
-  },
-  {
-    id: 2,
-    roll: 2,
-    name: 'Nabila Akter',
-    class: '9th',
-    gender: 'female',
-  },
-  {
-    id: 3,
-    roll: 3,
-    name: 'Rahim Uddin',
-    class: '10th',
-    gender: 'male',
-  },
-  {
-    id: 4,
-    roll: 4,
-    name: 'Sadia Islam',
-    class: '8th',
-    gender: 'female',
-  },
-  {
-    id: 5,
-    roll: 5,
-    name: 'Karim Hossain',
-    class: '9th',
-    gender: 'male',
-  },
-];
+import StudentContext from '../Context/StudentContext';
+import StudentContextProvider from './../Context/StudentContextProvider';
 
 const Student = () => {
-  const [student, setStudent] = useState(students);
-
-  const handleUserDeletes = id => {
-    const filterUser = student.filter(stu => stu.id !== id);
-    setStudent(filterUser);
-  };
-
-  const addedNewStudent = NewStudent => {
-    setStudent(prev => [...prev, NewStudent]);
-  };
-
   return (
     <div>
-      <AddStudent addedNewStudent={addedNewStudent} />
-      <RenderStudent
-        student={student}
-        onHandleUserDeletes={handleUserDeletes}
-      />
+      <StudentContextProvider>
+        <AddStudent />
+        <RenderStudent />
+      </StudentContextProvider>
     </div>
   );
 };

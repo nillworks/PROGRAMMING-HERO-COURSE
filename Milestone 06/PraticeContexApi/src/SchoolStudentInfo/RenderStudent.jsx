@@ -1,4 +1,17 @@
-const RenderStudent = ({ student, onHandleUserDeletes }) => {
+import StudentContext from '../Context/StudentContext';
+import UseStudentsContext from './../Hooks/UseStudentsContext';
+
+const RenderStudent = () => {
+  // Use Student User Context ||
+  const { student, setStudent } = UseStudentsContext();
+
+  // Deletes User
+  const onHandleUserDeletes = id => {
+    const filterUser = student.filter(stu => stu.id !== id);
+    setStudent(filterUser);
+  };
+
+  // Render User
   return (
     <div className="p-6 bg-gray-100 min-h-screen containers">
       <h2 className="text-2xl font-bold mb-6 text-center text-black">
