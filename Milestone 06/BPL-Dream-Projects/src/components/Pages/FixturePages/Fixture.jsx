@@ -1,7 +1,12 @@
 import React from 'react';
+import NotAvailablePage from '../../../ReuseComponents/NotAvailablePage';
 
 const Fixture = () => {
-  return <div>Fixture</div>;
+  return (
+    <div>
+      <NotAvailablePage />
+    </div>
+  );
 };
 
 export default Fixture;

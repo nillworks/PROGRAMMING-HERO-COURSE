@@ -3,6 +3,7 @@ import App from '../../App';
 import Home from '../Pages/HomePage/Home';
 import Fixture from '../Pages/FixturePages/Fixture';
 import Teams from '../Pages/TeamsPages/Teams';
+import Schedules from '../Pages/SchedulesPages/Schedules';
 
 const Routing = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ const Routing = createBrowserRouter([
       { path: '/', element: <Home /> },
       { path: '/fixture', element: <Fixture /> },
       { path: '/teams', element: <Teams /> },
+      { path: '/schedules', element: <Schedules /> },
     ],
   },
 ]);

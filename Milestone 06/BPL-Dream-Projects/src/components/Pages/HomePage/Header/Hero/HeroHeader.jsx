@@ -1,5 +1,11 @@
+import NotAvailablePage from '../../../../../ReuseComponents/NotAvailablePage';
+
 const HeroHeader = () => {
-  return <div>HeroHeader</div>;
+  return (
+    <div className="containers">
+      <NotAvailablePage />
+    </div>
+  );
 };
 
 export default HeroHeader;

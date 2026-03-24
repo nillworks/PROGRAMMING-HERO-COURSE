@@ -1,6 +1,6 @@
 import NotAvailablePage from '../../../ReuseComponents/NotAvailablePage';
 
-const Teams = () => {
+const Schedules = () => {
   return (
     <div>
       <NotAvailablePage />
@@ -8,4 +8,4 @@ const Teams = () => {
   );
 };
 
-export default Teams;
+export default Schedules;
