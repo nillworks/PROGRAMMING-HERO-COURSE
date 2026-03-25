@@ -6,7 +6,7 @@
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
     "price": 15000000,
-    "image": "https://example.com/images/virat.jpg"
+    "image": "https://i.ibb.co.com/PvyXS3Nd/Virat-Kohli-images.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
     "price": 14000000,
-    "image": "https://example.com/images/rohit.jpg"
+    "image": "https://i.ibb.co.com/zVs5Y05d/6.avif"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
     "price": 14500000,
-    "image": "https://example.com/images/babar.jpg"
+    "image": "https://i.ibb.co.com/twggcVgd/Babar-azam.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
     "price": 16000000,
-    "image": "https://example.com/images/smith.jpg"
+    "image": "https://i.ibb.co.com/YBX9t3Yt/Steve-Ssmith.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
     "price": 15500000,
-    "image": "https://example.com/images/kane.jpg"
+    "image": "https://i.ibb.co.com/ynshzSdz/69865884.avif"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
     "price": 20000000,
-    "image": "https://example.com/images/stokes.jpg"
+    "image": "https://i.ibb.co.com/Wvc5XCxk/Ben-Stokes.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "role": "All-Rounder",
     "battingStyle": "Left-Hand-Bat",
     "price": 18000000,
-    "image": "https://example.com/images/shakib.jpg"
+    "image": "https://i.ibb.co.com/DHMZdPmK/7992d7c9ecf9aaf1e8c353c34b92c41e.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "role": "All-Rounder",
     "battingStyle": "Right-Hand-Bat",
     "price": 17000000,
-    "image": "https://example.com/images/hardik.jpg"
+    "image": "https://i.ibb.co.com/NdCmPgDc/Hardik-Pandya-in-PMO-New-Delhi.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "role": "All-Rounder",
     "battingStyle": "Right-Hand-Bat",
     "price": 19000000,
-    "image": "https://example.com/images/russell.jpg"
+    "image": "https://i.ibb.co.com/xSYD1dgH/378198-6.webp"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "role": "Wicketkeeper",
     "battingStyle": "Right-Hand-Bat",
     "price": 16500000,
-    "image": "https://example.com/images/buttler.jpg"
+    "image": "https://i.ibb.co.com/23mkJJGP/images.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "role": "Wicketkeeper",
     "battingStyle": "Right-Hand-Bat",
     "price": 13000000,
-    "image": "https://example.com/images/dhoni.jpg"
+    "image": "https://st1.latestly.com/wp-content/uploads/2025/06/MS-Dhoni-Wallpaper-Shared-by-Chennai-Super-Kings.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "role": "Wicketkeeper",
     "battingStyle": "Left-Hand-Bat",
     "price": 15000000,
-    "image": "https://example.com/images/qdk.jpg"
+    "image": "https://c8.alamy.com/comp/2JHM8H9/quinton-de-kock-of-south-africa-during-the-game-2JHM8H9.jpg"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "price": 14000000,
-    "image": "https://example.com/images/rabada.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWvG8CIRpN55iL2BOKa-TKMEK0lrDYwalQEw&s"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "price": 17500000,
-    "image": "https://example.com/images/bumrah.jpg"
+    "image": "https://i.ibb.co.com/PyCf99j/MS-Dhoni-Wallpaper-Shared-by-Chennai-Super-Kings.webp"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "role": "Bowler",
     "battingStyle": "Left-Hand-Bat",
     "price": 16000000,
-    "image": "https://example.com/images/starc.jpg"
+    "image": "https://i.guim.co.uk/img/media/533ca64bdf07051fbf26b124f973228346f20593/0_185_3648_2918/master/3648.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=306ec50a0063cc8db21f3dd2b9fa5342"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "price": 15000000,
-    "image": "https://example.com/images/boult.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm9KO5NEGd_0TImVkf4nh6fHIdJzDXdJKk9g&s"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "role": "Bowler",
     "battingStyle": "Right-Hand-Bat",
     "price": 12000000,
-    "image": "https://example.com/images/murali.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXX2fj52juVM_C4jQre8QA9e7SBKn-QZOefA&s"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "role": "Batsman",
     "battingStyle": "Right-Hand-Bat",
     "price": 18500000,
-    "image": "https://example.com/images/ab.jpg"
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_50/lsci/db/PICTURES/CMS/320500/320521.jpg"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "role": "Batsman",
     "battingStyle": "Left-Hand-Bat",
     "price": 17000000,
-    "image": "https://example.com/images/gayle.jpg"
+    "image": "https://media.gettyimages.com/id/515942050/photo/mumbai-india-chris-gayle-of-the-west-indies-celebrates-his-century-during-the-icc-world.jpg?s=612x612&w=gi&k=20&c=8tms1JYVAQWw4fLH4ul2vPQDMmrAQfFpeivbvgeKRog="
   },
   {
     "id": 20,
@@ -177,6 +177,6 @@
     "role": "Batsman",
     "battingStyle": "Left-Hand-Bat",
     "price": 16500000,
-    "image": "https://example.com/images/warner.jpg"
+    "image": "https://c8.alamy.com/comp/HXG2GT/david-warner-australia-trent-bridge-nottingham-england-08-june-2009-HXG2GT.jpg"
   }
 ]

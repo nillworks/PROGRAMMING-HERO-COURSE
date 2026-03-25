@@ -112,4 +112,8 @@
     box-shadow: 0 4px 15px rgba(229, 255, 0, 0.4);
     background-color: #f2ff00;
   }
+
+  .customBorders {
+    border: 1px solid #ddd;
+  }
 }
