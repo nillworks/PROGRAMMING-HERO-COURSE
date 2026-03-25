@@ -3,9 +3,9 @@ import logoFooter from '../../../../../../public/assets/logo-footer.png';
 const Footer = () => {
   return (
     <footer className="py-10 mt-60 px-8 bg-footerColor text-white w-full">
-      <div className="containers relative">
+      <div className="containers relative pt-20">
         {/* top Section*/}
-        <div className="absolute -top-88 sm:-top-50 w-full borders rounded-lg">
+        <div className="absolute -top-88 sm:-top-50 mt-20 w-full borders rounded-lg">
           <section className="containers rounded-lg  border-2 newsletterCard space-y-3 ">
             <h2 className="text-2xl sm:text-2xl font-bold text-black">
               Subscribe to our Newsletter

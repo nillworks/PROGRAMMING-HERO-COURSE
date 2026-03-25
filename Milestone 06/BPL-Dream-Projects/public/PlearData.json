@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 15000000,
+    "image": "https://example.com/images/virat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 14000000,
+    "image": "https://example.com/images/rohit.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 14500000,
+    "image": "https://example.com/images/babar.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 16000000,
+    "image": "https://example.com/images/smith.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 15500000,
+    "image": "https://example.com/images/kane.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 20000000,
+    "image": "https://example.com/images/stokes.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 18000000,
+    "image": "https://example.com/images/shakib.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 17000000,
+    "image": "https://example.com/images/hardik.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 19000000,
+    "image": "https://example.com/images/russell.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 16500000,
+    "image": "https://example.com/images/buttler.jpg"
+  },
+  {
+    "id": 11,
+    "name": "MS Dhoni",
+    "country": "India",
+    "role": "Wicketkeeper",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 13000000,
+    "image": "https://example.com/images/dhoni.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicketkeeper",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 15000000,
+    "image": "https://example.com/images/qdk.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 14000000,
+    "image": "https://example.com/images/rabada.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 17500000,
+    "image": "https://example.com/images/bumrah.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Mitchell Starc",
+    "country": "Australia",
+    "role": "Bowler",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 16000000,
+    "image": "https://example.com/images/starc.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 15000000,
+    "image": "https://example.com/images/boult.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Muttiah Muralitharan",
+    "country": "Sri Lanka",
+    "role": "Bowler",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 12000000,
+    "image": "https://example.com/images/murali.jpg"
+  },
+  {
+    "id": 18,
+    "name": "AB de Villiers",
+    "country": "South Africa",
+    "role": "Batsman",
+    "battingStyle": "Right-Hand-Bat",
+    "price": 18500000,
+    "image": "https://example.com/images/ab.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Chris Gayle",
+    "country": "West Indies",
+    "role": "Batsman",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 17000000,
+    "image": "https://example.com/images/gayle.jpg"
+  },
+  {
+    "id": 20,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "battingStyle": "Left-Hand-Bat",
+    "price": 16500000,
+    "image": "https://example.com/images/warner.jpg"
+  }
+]
