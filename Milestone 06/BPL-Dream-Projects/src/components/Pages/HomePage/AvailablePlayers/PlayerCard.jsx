@@ -1,7 +1,11 @@
+import { useState } from 'react';
 import userIcons from '../../../../../public/assets/user 1.png';
 
 const PlayerCard = ({ player }) => {
   const { name, country, role, battingStyle, price, image } = player;
+
+  const [isSelected, setIsSelected] = useState(false);
+
   return (
     <div>
       <div className="bg-white customBorders rounded-2xl shadow-md p-4 space-y-3 hover:shadow-xl duration-300 hover:-translate-y-1 cursor-pointer transition text-gray-500">
@@ -40,8 +44,12 @@ const PlayerCard = ({ player }) => {
         {/* Price + Button */}
         <div className="flex justify-between items-center">
           <p className="font-semibold text-gray-800">Price: ${price}</p>
-          <button className="customBorders duration-200 px-3 py-1 rounded-lg text-sm hover:bg-gray-100 cursor-pointer">
-            Choose Player
+          <button
+            disabled={isSelected}
+            onClick={() => setIsSelected(true)}
+            className="customBorders duration-200 px-3 py-1 rounded-lg text-sm hover:bg-gray-100 cursor-pointer"
+          >
+            {isSelected ? 'Selected' : 'Choose Player'}
           </button>
         </div>
       </div>
