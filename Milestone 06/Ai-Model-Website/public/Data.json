@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "ChatGPT",
+    "description": "OpenAI's flagship conversational AI for writing, coding, and analysis.\nAvailable in free and paid tiers with GPT-4o powering the premium plan.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/240px-ChatGPT_logo.svg.png",
+    "status": "popular"
+  },
+  {
+    "id": 2,
+    "title": "Claude",
+    "description": "Anthropic's AI assistant known for nuanced reasoning and long context windows.\nExcels at document analysis, coding, and thoughtful conversation.",
+    "price": 20,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Claude_AI_logo.svg/240px-Claude_AI_logo.svg.png",
+    "status": "favourite"
+  },
+  {
+    "id": 3,
+    "title": "Gemini",
+    "description": "Google's multimodal AI integrated across Search, Docs, and Gmail.\nSupports text, image, and audio inputs with deep Google ecosystem ties.",
+    "price": 19.99,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Google_Gemini_logo.svg/240px-Google_Gemini_logo.svg.png",
+    "status": "popular"
+  },
+  {
+    "id": 4,
+    "title": "Midjourney",
+    "description": "AI image generator producing stunning, artistic visuals from text prompts.\nFavored by designers and creatives for its unique aesthetic quality.",
+    "price": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Midjourney_Emblem.png/240px-Midjourney_Emblem.png",
+    "status": "mostwanted"
+  },
+  {
+    "id": 5,
+    "title": "GitHub Copilot",
+    "description": "AI pair programmer that autocompletes code directly inside your editor.\nPowered by OpenAI Codex, supporting dozens of programming languages.",
+    "price": 10,
+    "image": "https://github.githubassets.com/assets/copilot-629afca6f044.png",
+    "status": "popular"
+  },
+  {
+    "id": 6,
+    "title": "Perplexity AI",
+    "description": "AI-powered search engine that answers questions with cited web sources.\nCombines real-time search with conversational summarization.",
+    "price": 0,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Perplexity_AI_logo.svg/240px-Perplexity_AI_logo.svg.png",
+    "status": "mostwanted"
+  },
+  {
+    "id": 7,
+    "title": "Notion AI",
+    "description": "AI writing and summarization built natively into the Notion workspace.\nHelps draft documents, auto-fill tables, and extract action items from notes.",
+    "price": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Notion-logo.svg/240px-Notion-logo.svg.png",
+    "status": "favourite"
+  },
+  {
+    "id": 8,
+    "title": "Runway ML",
+    "description": "Generative AI platform for video creation, editing, and visual effects.\nPowers text-to-video, inpainting, and background removal for creators.",
+    "price": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Runway_logo_%28company%29.svg/240px-Runway_logo_%28company%29.svg.png",
+    "status": "mostwanted"
+  },
+  {
+    "id": 9,
+    "title": "ElevenLabs",
+    "description": "AI voice synthesis platform that clones and generates realistic speech.\nUsed for audiobooks, dubbing, and AI voiceover in multiple languages.",
+    "price": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/ElevenLabs_logo.svg/240px-ElevenLabs_logo.svg.png",
+    "status": "favourite"
+  },
+  {
+    "id": 10,
+    "title": "Hugging Face",
+    "description": "Open-source hub for thousands of AI models, datasets, and demos.\nThe go-to platform for researchers and developers to share and deploy ML models.",
+    "price": 0,
+    "image": "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+    "status": "popular"
+  }
+]
