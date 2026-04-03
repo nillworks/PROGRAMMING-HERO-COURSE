@@ -5,6 +5,7 @@ import Menu from '../Pages/Menu/Menu';
 import Offers from '../Pages/Offers/Offers';
 import Service from '../Pages/Services/Service';
 import { Suspense } from 'react';
+import Users from '../Pages/Menu/Users';
 
 // data Pass Menu Page
 const menuData = fetch(`https://jsonplaceholder.typicode.com/posts`).then(res =>
@@ -33,6 +34,12 @@ const Router = createBrowserRouter([
       },
       { path: '/services', element: <Service /> },
       { path: '/offers', element: <Offers /> },
+      {
+        path: '/menu/:UserId',
+        element: <Users />,
+        loader: ({ params }) =>
+          fetch(`https://jsonplaceholder.typicode.com/posts/${params.UserId}`),
+      },
     ],
   },
 ]);
