@@ -1,5 +1,11 @@
+import From from './components/UserInpontFrom/From';
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <From />
+    </div>
+  );
 };
 
 export default App;
