@@ -1,9 +1,9 @@
-import From2 from './components/Pages/UserInpontFrom/from2Colects/From2';
+import ProductManagement from './components/Pages/ProductsPage/ProductManagement';
 
 const App = () => {
   return (
     <div>
-      <From2 />
+      <ProductManagement />
     </div>
   );
 };
