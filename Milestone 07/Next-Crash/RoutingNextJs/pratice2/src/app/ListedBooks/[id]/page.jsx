@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 const books = [
   {
     id: 1,
@@ -43,18 +41,20 @@ const books = [
   },
 ];
 
-const ListedBooksPage = () => {
+const NestedListedBook = async ({ params }) => {
+  const { id } = await params;
+  const bookDetails = books.find(item => item.id === Number(id));
+  const { name, author, price } = bookDetails;
+
+  console.log('click  id:', id);
+
   return (
     <div>
-      <h2 className="text-3xl space-y-4 px-4 py-2">
-        {books.map(item => (
-          <li className="" key={item.id}>
-            <Link href={`/ListedBooks/${item.id}`}>{item.name}</Link>
-          </li>
-        ))}
-      </h2>
+      <h2>Name:{name}</h2>
+      <h2>Author:{author}</h2>
+      <h2>Price:{price}</h2>
     </div>
   );
 };
 
-export default ListedBooksPage;
+export default NestedListedBook;
