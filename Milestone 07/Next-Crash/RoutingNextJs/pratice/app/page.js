@@ -1,5 +1,7 @@
-import Image from 'next/image';
-
 export default function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <h2 className="text-4xl font-bold">This is Home Pages</h2>
+    </div>
+  );
 }
