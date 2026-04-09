@@ -1,58 +1,7 @@
-import Link from 'next/link';
-
-const books = [
-  {
-    id: 1,
-    name: 'Atomic Habits',
-    author: 'James Clear',
-    price: 450,
-    category: 'Self Development',
-    image: 'https://i.ibb.co/atomic-habits.jpg',
-  },
-  {
-    id: 2,
-    name: 'Rich Dad Poor Dad',
-    author: 'Robert Kiyosaki',
-    price: 400,
-    category: 'Finance',
-    image: 'https://i.ibb.co/rich-dad.jpg',
-  },
-  {
-    id: 3,
-    name: 'The Alchemist',
-    author: 'Paulo Coelho',
-    price: 350,
-    category: 'Novel',
-    image: 'https://i.ibb.co/alchemist.jpg',
-  },
-  {
-    id: 4,
-    name: 'Deep Work',
-    author: 'Cal Newport',
-    price: 500,
-    category: 'Productivity',
-    image: 'https://i.ibb.co/deep-work.jpg',
-  },
-  {
-    id: 5,
-    name: 'Think and Grow Rich',
-    author: 'Napoleon Hill',
-    price: 380,
-    category: 'Motivation',
-    image: 'https://i.ibb.co/think-grow.jpg',
-  },
-];
-
 const ListedBooksPage = () => {
   return (
     <div>
-      <h2 className="text-3xl space-y-4 px-4 py-2">
-        {books.map(item => (
-          <li className="" key={item.id}>
-            <Link href={`/ListedBooks/${item.id}`}>{item.name}</Link>
-          </li>
-        ))}
-      </h2>
+      <main> this is list page</main>
     </div>
   );
 };

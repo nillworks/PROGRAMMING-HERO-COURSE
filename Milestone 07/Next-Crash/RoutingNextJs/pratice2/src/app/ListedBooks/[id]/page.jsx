@@ -41,6 +41,17 @@ const books = [
   },
 ];
 
+// Meta Data SEO ||
+export async function generateMetadata({ params }) {
+  const { id } = await params;
+  const bookDetails = books.find(item => item.id === Number(id));
+  const { name, author } = bookDetails;
+  return {
+    title: name,
+    description: author,
+  };
+}
+
 const NestedListedBook = async ({ params }) => {
   const { id } = await params;
   const bookDetails = books.find(item => item.id === Number(id));
