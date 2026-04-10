@@ -1,5 +1,5 @@
 import getFoodsData from '@/lib/getFoodsData';
-import Menu from '@/Pages/Menu/Menu';
+import Menu from '@/AllPages/Menu/Menu';
 import { Suspense } from 'react';
 
 const MenuPage = async () => {

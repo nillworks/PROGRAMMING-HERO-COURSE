@@ -1,5 +1,5 @@
 import getFoodData from '@/lib/getFoodData';
-import SingleFoodCard from '@/Pages/Menu/SingleFoodCard';
+import SingleFoodCard from '@/AllPages/Menu/SingleFoodCard';
 import { Suspense } from 'react';
 
 const singlePageFood = async ({ params }) => {
