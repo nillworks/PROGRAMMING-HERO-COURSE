@@ -1,7 +1,9 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const MenuCard = ({ food }) => {
   const {
+    id,
     dish_name,
     image_link,
     category,
@@ -60,9 +62,17 @@ const MenuCard = ({ food }) => {
         </div>
 
         {/* Button */}
-        <button className="w-full mt-3 bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
-          Order Now
-        </button>
+        <Link
+          href={`/Menu/${id}`}
+          className="flex items-center gap-4 justify-end"
+        >
+          <button className="btn bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+            Order Now
+          </button>
+          <button className="btn bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition">
+            Show Details
+          </button>
+        </Link>
       </div>
     </div>
   );
