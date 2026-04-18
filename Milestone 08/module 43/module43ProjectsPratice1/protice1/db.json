@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introduction to React",
+      "author": "Rakib",
+      "body": "React is a popular JavaScript library for building user interfaces."
+    },
+    {
+      "id": "2",
+      "title": "Learning JSON Server",
+      "author": "Anika",
+      "body": "JSON Server is a great tool for mock REST APIs."
+    },
+    {
+      "id": "3",
+      "title": "Next.js for Beginners",
+      "author": "Sakib",
+      "body": "Next.js provides the best developer experience with all the features you need for production."
+    },
+    {
+      "id": "4",
+      "title": "Mastering Tailwind CSS",
+      "author": "Tanvir",
+      "body": "Tailwind CSS is a utility-first CSS framework for rapid UI development."
+    },
+    {
+      "id": "5",
+      "title": "JavaScript ES6 Features",
+      "author": "Mitu",
+      "body": "ES6 brought many useful features like arrow functions and template literals."
+    },
+    {
+      "id": "6",
+      "title": "The Power of Node.js",
+      "author": "Kamal",
+      "body": "Node.js allows you to run JavaScript on the server side."
+    },
+    {
+      "id": "7",
+      "title": "Exploring MongoDB",
+      "author": "Sumi",
+      "body": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents."
+    },
+    {
+      "id": "8",
+      "title": "Redux Toolkit Guide",
+      "author": "Naim",
+      "body": "Redux Toolkit is the official, opinionated, batteries-included toolset for efficient Redux development."
+    },
+    {
+      "id": "9",
+      "title": "TypeScript Advantages",
+      "author": "Fahim",
+      "body": "TypeScript adds static typing to JavaScript to help you catch errors early."
+    },
+    {
+      "id": "10",
+      "title": "Building RESTful APIs",
+      "author": "Liza",
+      "body": "RESTful APIs follow a standard set of rules for communication between client and server."
+    }
+  ]
+}
