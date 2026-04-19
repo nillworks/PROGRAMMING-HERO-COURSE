@@ -3,7 +3,6 @@ import ProductCard from './ProductCard';
 
 const Products = async () => {
   const productData = await getProductData();
-  console.log(productData);
 
   return (
     <div>

@@ -1,7 +1,8 @@
+import Link from 'next/link';
 import React from 'react';
 
 const ProductCard = ({ product }) => {
-  const { title, category, price, rating, description } = product || {};
+  const { id, title, category, price, rating, description } = product || {};
 
   return (
     <div className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition duration-300 p-4 flex flex-col justify-between">
@@ -29,9 +30,11 @@ const ProductCard = ({ product }) => {
       </div>
 
       {/* Button */}
-      <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-xl transition">
-        Add to Cart
-      </button>
+      <Link href={`/${id}`}>
+        <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-xl transition">
+          Show Details
+        </button>
+      </Link>
     </div>
   );
 };
