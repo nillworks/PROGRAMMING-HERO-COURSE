@@ -1,64 +1,94 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": "1",
-      "title": "Introduction to React",
-      "author": "Rakib",
-      "body": "React is a popular JavaScript library for building user interfaces."
+      "id": 1,
+      "title": "Apple iPhone 85 Pro Max",
+      "category": "Smartphones",
+      "price": 1299,
+      "stock": 25,
+      "rating": 4.8,
+      "description": "Latest Apple flagship with A17 Pro chip and titanium design."
     },
     {
-      "id": "2",
-      "title": "Learning JSON Server",
-      "author": "Anika",
-      "body": "JSON Server is a great tool for mock REST APIs."
+      "id": 2,
+      "title": "Samsung Galaxy S24 Ultra 90",
+      "category": "Smartphones",
+      "price": 1199,
+      "stock": 18,
+      "rating": 4.7,
+      "description": "Powerful Android phone with S-Pen and AI features."
     },
     {
-      "id": "3",
-      "title": "Next.js for Beginners",
-      "author": "Sakib",
-      "body": "Next.js provides the best developer experience with all the features you need for production."
+      "id": 3,
+      "title": "MacBook Air M3",
+      "category": "Laptops",
+      "price": 1499,
+      "stock": 10,
+      "rating": 4.9,
+      "description": "Lightweight laptop with Apple M3 chip for high performance."
     },
     {
-      "id": "4",
-      "title": "Mastering Tailwind CSS",
-      "author": "Tanvir",
-      "body": "Tailwind CSS is a utility-first CSS framework for rapid UI development."
+      "id": 4,
+      "title": "Dell XPS 13",
+      "category": "Laptops",
+      "price": 1290,
+      "stock": 12,
+      "rating": 4.6,
+      "description": "Premium Windows laptop with ultra thin design."
     },
     {
-      "id": "5",
-      "title": "JavaScript ES6 Features",
-      "author": "Mitu",
-      "body": "ES6 brought many useful features like arrow functions and template literals."
+      "id": 5,
+      "title": "Sony WH-1000XM5 Headphones",
+      "category": "Audio",
+      "price": 399,
+      "stock": 30,
+      "rating": 4.8,
+      "description": "Industry leading noise cancelling headphones."
     },
     {
-      "id": "6",
-      "title": "The Power of Node.js",
-      "author": "Kamal",
-      "body": "Node.js allows you to run JavaScript on the server side."
+      "id": 6,
+      "title": "Apple Watch Series 9",
+      "category": "Wearables",
+      "price": 499,
+      "stock": 22,
+      "rating": 4.7,
+      "description": "Smartwatch with health tracking and fitness features."
     },
     {
-      "id": "7",
-      "title": "Exploring MongoDB",
-      "author": "Sumi",
-      "body": "MongoDB is a NoSQL database that stores data in flexible, JSON-like documents."
+      "id": 7,
+      "title": "Canon EOS R10 Camera",
+      "category": "Cameras",
+      "price": 999,
+      "stock": 8,
+      "rating": 4.6,
+      "description": "Mirrorless camera for professional photography."
     },
     {
-      "id": "8",
-      "title": "Redux Toolkit Guide",
-      "author": "Naim",
-      "body": "Redux Toolkit is the official, opinionated, batteries-included toolset for efficient Redux development."
+      "id": 8,
+      "title": "Logitech MX Master 3S Mouse",
+      "category": "Accessories",
+      "price": 99,
+      "stock": 50,
+      "rating": 4.9,
+      "description": "Ergonomic wireless mouse for productivity."
     },
     {
-      "id": "9",
-      "title": "TypeScript Advantages",
-      "author": "Fahim",
-      "body": "TypeScript adds static typing to JavaScript to help you catch errors early."
+      "id": 9,
+      "title": "Mechanical Gaming Keyboard",
+      "category": "Accessories",
+      "price": 120,
+      "stock": 40,
+      "rating": 4.5,
+      "description": "RGB mechanical keyboard for gaming and typing."
     },
     {
-      "id": "10",
-      "title": "Building RESTful APIs",
-      "author": "Liza",
-      "body": "RESTful APIs follow a standard set of rules for communication between client and server."
+      "id": 10,
+      "title": "Samsung 4K Smart TV 55 inch",
+      "category": "Electronics",
+      "price": 799,
+      "stock": 15,
+      "rating": 4.6,
+      "description": "Ultra HD Smart TV with Netflix and YouTube support."
     }
   ]
 }

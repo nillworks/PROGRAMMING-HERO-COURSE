@@ -7,6 +7,7 @@ const navLinks = [
   { id: 1, name: 'Home', path: '/' },
   { id: 2, name: 'Post', path: '/post' },
   { id: 3, name: 'Projects', path: '/projects' },
+  { id: 4, name: 'Product', path: '/product' },
 ];
 
 const NavigationMenu = () => {
