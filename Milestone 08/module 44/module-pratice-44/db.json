@@ -1,0 +1,74 @@
+{
+  "tasks": [
+    {
+      "id": "T001",
+      "title": "Complete React Basics",
+      "description": "Learn components, props, and state in React.",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "T002",
+      "title": "Build Portfolio Website",
+      "description": "Create a personal portfolio using Next.js.",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": "T003",
+      "title": "Learn Tailwind CSS",
+      "description": "Understand utility-first CSS framework.",
+      "status": "completed",
+      "priority": "medium"
+    },
+    {
+      "id": "T004",
+      "title": "Practice JavaScript ES6",
+      "description": "Work with arrow functions, destructuring, and modules.",
+      "status": "pending",
+      "priority": "high"
+    },
+    {
+      "id": "T005",
+      "title": "Create API with Node.js",
+      "description": "Build a REST API using Express.js.",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": "T006",
+      "title": "Learn Git & GitHub",
+      "description": "Understand version control and collaboration.",
+      "status": "completed",
+      "priority": "medium"
+    },
+    {
+      "id": "T007",
+      "title": "Build E-commerce UI",
+      "description": "Design product cards and layout.",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "T008",
+      "title": "Fix Bugs in Project",
+      "description": "Debug and improve existing code.",
+      "status": "in-progress",
+      "priority": "high"
+    },
+    {
+      "id": "T009",
+      "title": "Learn MongoDB",
+      "description": "Understand database CRUD operations.",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "T010",
+      "title": "Deploy Project",
+      "description": "Deploy app using Vercel or Netlify.",
+      "status": "pending",
+      "priority": "high"
+    }
+  ]
+}
