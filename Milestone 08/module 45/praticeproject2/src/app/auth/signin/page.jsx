@@ -11,10 +11,11 @@ import {
   Label,
   TextField,
 } from '@heroui/react';
+
 import { Eye, EyeOff } from 'lucide-react';
 import { useState } from 'react';
 
-const SignUpPage = () => {
+const SignInPage = () => {
   const [showPassword, setShowPassword] = useState(false);
 
   const onSubmit = async e => {
@@ -23,10 +24,11 @@ const SignUpPage = () => {
     const FromData = Object.fromEntries(formData.entries());
     console.log(FromData);
 
-    const { data, error } = await authClient.signUp.email({
-      name: FromData.name,
+    const { data, error } = await authClient.signIn.email({
       email: FromData.email,
       password: FromData.password,
+      rememberMe: true,
+      callbackURL: '/',
     });
 
     console.log(data, error);
@@ -38,22 +40,6 @@ const SignUpPage = () => {
         className="flex w-96 flex-col mt-10 rounded-lg mx-auto shadow px-3 py-2 gap-4"
         onSubmit={onSubmit}
       >
-        {/* Name  */}
-        <TextField
-          isRequired
-          name="name"
-          validate={value => {
-            if (value.length < 3) {
-              return 'Name must be at least 3 characters';
-            }
-            return null;
-          }}
-        >
-          <Label>Name</Label>
-          <Input placeholder="Enter Your Name" />
-          <FieldError />
-        </TextField>
-
         {/* Email */}
         <TextField
           isRequired
@@ -99,7 +85,7 @@ const SignUpPage = () => {
             <button
               type="button"
               onClick={() => setShowPassword(!showPassword)}
-              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500"
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 cursor-pointer"
             >
               {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
             </button>
@@ -110,8 +96,10 @@ const SignUpPage = () => {
           </Description>
           <FieldError />
         </TextField>
+
+        {/* Sign In Sign Up */}
         <div className="flex gap-2">
-          <Button type="submit">Sign Up</Button>
+          <Button type="submit">Sign In</Button>
           <Button type="reset" variant="secondary">
             Reset
           </Button>
@@ -121,4 +109,4 @@ const SignUpPage = () => {
   );
 };
 
-export default SignUpPage;
+export default SignInPage;
