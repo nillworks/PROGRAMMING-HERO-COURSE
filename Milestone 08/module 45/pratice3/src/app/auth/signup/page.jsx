@@ -1,5 +1,6 @@
 'use client';
 
+import { authClient } from '@/app/lib/auth-client';
 import { Check } from '@gravity-ui/icons';
 import {
   Button,
@@ -12,14 +13,28 @@ import {
 } from '@heroui/react';
 import { Eye, EyeOff } from 'lucide-react';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const SignUpPage = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const router = useRouter();
 
-  const onSubmitSignUp = e => {
+  const onSubmitSignUp = async e => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
-    console.log(formData);
+    const convertObj = Object.fromEntries(formData);
+    const { data, error } = await authClient.signUp.email({
+      name: convertObj.name,
+      email: convertObj.email,
+      password: convertObj.password,
+      // callbackURL: '/',
+    });
+
+    if (data) {
+      router.push('/'); // ✅ redirect to home
+    }
+
+    console.log(data, error);
   };
 
   return (

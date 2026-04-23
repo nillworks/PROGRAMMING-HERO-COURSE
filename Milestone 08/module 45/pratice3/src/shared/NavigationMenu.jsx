@@ -3,9 +3,17 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
+import { signOut, useSession } from '@/app/lib/auth-client';
 
 const NavigationMenu = () => {
+  const { data, pending } = useSession();
   const [open, setOpen] = useState(false);
+
+  const user = data?.user;
+  if (pending) {
+    <p>loading ....</p>;
+    return;
+  }
 
   const navLinks = [
     { name: 'Home', href: '/' },
@@ -30,21 +38,44 @@ const NavigationMenu = () => {
             </li>
           ))}
 
-          {/* Sign In */}
-          <Link
-            href="/auth/signin"
-            className="px-4 py-1 border rounded-md hover:bg-gray-200 dark:hover:bg-gray-800 transition"
-          >
-            Sign In
-          </Link>
+          <>
+            {user ? (
+              <>
+                <div className="flex items-center gap-4 bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-xl shadow-sm">
+                  <p className="text-gray-800 dark:text-gray-200 font-medium">
+                    Welcome, <span className="font-semibold">{user?.name}</span>
+                  </p>
 
-          {/* Sign Up */}
-          <Link
-            href="/auth/signup"
-            className="px-4 py-1 rounded-md bg-black text-white dark:bg-white dark:text-black"
-          >
-            Sign Up
-          </Link>
+                  <button
+                    onClick={() => signOut()}
+                    className="px-4 py-1.5 cursor-pointer rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
+                  >
+                    Logout
+                  </button>
+                </div>
+              </>
+            ) : (
+              <>
+                {/* Sign In */}
+                <Link
+                  href="/auth/signin"
+                  onClick={() => setOpen(false)}
+                  className="text-center btn btn-accent"
+                >
+                  Sign In
+                </Link>
+
+                {/* Sign Up */}
+                <Link
+                  href="/auth/signup"
+                  onClick={() => setOpen(false)}
+                  className="btn btn-active"
+                >
+                  Sign Up
+                </Link>
+              </>
+            )}
+          </>
         </ul>
 
         {/* Mobile Button */}
@@ -72,23 +103,46 @@ const NavigationMenu = () => {
               </li>
             ))}
 
-            {/* Sign In */}
-            <Link
-              href="/auth/signin"
-              onClick={() => setOpen(false)}
-              className="text-center py-2 border rounded-md"
-            >
-              Sign In
-            </Link>
+            {/* SignUp And SignIn Mobile */}
+            <>
+              {user ? (
+                <>
+                  <div className="flex items-center gap-4 bg-gray-100 dark:bg-gray-800 px-4 py-2 rounded-xl shadow-sm">
+                    <p className="text-gray-800 dark:text-gray-200 font-medium">
+                      Welcome,{' '}
+                      <span className="font-semibold">{user?.name}</span>
+                    </p>
 
-            {/* Sign Up */}
-            <Link
-              href="/auth/signup"
-              onClick={() => setOpen(false)}
-              className="text-center py-2 rounded-md bg-black text-white dark:bg-white dark:text-black"
-            >
-              Sign Up
-            </Link>
+                    <button
+                      onClick={() => signOut()}
+                      className="px-4 py-1.5 cursor-pointer rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
+                    >
+                      Logout
+                    </button>
+                  </div>
+                </>
+              ) : (
+                <>
+                  {/* Sign In */}
+                  <Link
+                    href="/auth/signin"
+                    onClick={() => setOpen(false)}
+                    className="text-center btn btn-primary"
+                  >
+                    Sign In
+                  </Link>
+
+                  {/* Sign Up */}
+                  <Link
+                    href="/auth/signup"
+                    onClick={() => setOpen(false)}
+                    className="btn btn-accent"
+                  >
+                    Sign Up
+                  </Link>
+                </>
+              )}
+            </>
           </ul>
         </div>
       )}

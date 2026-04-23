@@ -1,5 +1,6 @@
 'use client';
 
+import { authClient } from '@/app/lib/auth-client';
 import { Check } from '@gravity-ui/icons';
 import {
   Button,
@@ -16,10 +17,17 @@ import { useState } from 'react';
 const SignInPage = () => {
   const [showPassword, setShowPassword] = useState(false);
 
-  const onSubmitSignIn = e => {
+  const onSubmitSignIn = async e => {
     e.preventDefault();
     const formData = new FormData(e.currentTarget);
     const convertObj = Object.fromEntries(formData);
+    const { data, error } = await authClient.signIn.email({
+      email: convertObj.email,
+      password: convertObj.password,
+      callbackURL: '/',
+    });
+
+    console.log(data, error);
   };
 
   return (
