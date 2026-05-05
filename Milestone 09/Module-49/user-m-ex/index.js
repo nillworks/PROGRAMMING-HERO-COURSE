@@ -1,6 +1,11 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 8000;
+
+//middleware
+app.use(cors());
+app.use(express.json());
 
 const products = [
   {
@@ -43,6 +48,20 @@ app.get('/users', (req, res) => {
 
 app.get('/product', (req, res) => {
   res.send(products);
+});
+
+app.post('/product', (req, res) => {
+  console.log('Data in the working', req.body);
+
+  const newProduct = req.body;
+  newProduct.id = products.length + 1;
+  products.push(newProduct);
+
+  res.send({
+    success: true,
+    data: newProduct,
+    message: 'post method is working',
+  });
 });
 
 app.listen(port, () => {
