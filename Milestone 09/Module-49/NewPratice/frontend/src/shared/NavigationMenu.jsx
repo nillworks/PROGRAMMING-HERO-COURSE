@@ -25,8 +25,11 @@ const NavigationMenu = () => {
             </Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-blue-600 transition">
-              About
+            <Link
+              href="/new-book-add"
+              className="hover:text-blue-600 transition"
+            >
+              Add New Books
             </Link>
           </li>
           <li>
