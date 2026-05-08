@@ -55,13 +55,15 @@ const UsersList = ({ userData, deleteUserData }) => {
                     <Link href={`/user/${item._id}`}>Details</Link>
                   </Button>
 
-                  <Button
-                    variant="outline"
-                    className={`py-1 px-3 bg-gray-400 text-white font-medium rounded-full`}
-                    size="sm"
-                  >
-                    <Link href={'/'}>Edit</Link>
-                  </Button>
+                  <Link href={`/user/${item._id}/edit`}>
+                    <Button
+                      variant="outline"
+                      className={`py-1 px-3 bg-gray-400 text-white font-medium rounded-full`}
+                      size="sm"
+                    >
+                      Edit
+                    </Button>
+                  </Link>
 
                   {/* Delete User */}
                   <AlertDialog>
